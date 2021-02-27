@@ -1,23 +1,27 @@
 {
   "files": {
-    "main.css": "/preact3/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/preact3/static/js/main.75b52035.chunk.js",
-    "main.js.map": "/preact3/static/js/main.75b52035.chunk.js.map",
-    "runtime-main.js": "/preact3/static/js/runtime-main.d97c8da8.js",
-    "runtime-main.js.map": "/preact3/static/js/runtime-main.d97c8da8.js.map",
-    "static/js/2.094d8d08.chunk.js": "/preact3/static/js/2.094d8d08.chunk.js",
-    "static/js/2.094d8d08.chunk.js.map": "/preact3/static/js/2.094d8d08.chunk.js.map",
-    "static/js/3.cad1e983.chunk.js": "/preact3/static/js/3.cad1e983.chunk.js",
-    "static/js/3.cad1e983.chunk.js.map": "/preact3/static/js/3.cad1e983.chunk.js.map",
+    "main.css": "/preact3/static/css/main.8e5e9e8b.chunk.css",
+    "main.js": "/preact3/static/js/main.cbe1d4cd.chunk.js",
+    "main.js.map": "/preact3/static/js/main.cbe1d4cd.chunk.js.map",
+    "runtime-main.js": "/preact3/static/js/runtime-main.30ce1c46.js",
+    "runtime-main.js.map": "/preact3/static/js/runtime-main.30ce1c46.js.map",
+    "static/js/2.3884d6d8.chunk.js": "/preact3/static/js/2.3884d6d8.chunk.js",
+    "static/js/2.3884d6d8.chunk.js.map": "/preact3/static/js/2.3884d6d8.chunk.js.map",
     "index.html": "/preact3/index.html",
-    "static/css/main.8c8b27cf.chunk.css.map": "/preact3/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.094d8d08.chunk.js.LICENSE.txt": "/preact3/static/js/2.094d8d08.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/preact3/static/media/logo.6ce24c58.svg"
+    "static/css/main.8e5e9e8b.chunk.css.map": "/preact3/static/css/main.8e5e9e8b.chunk.css.map",
+    "static/js/2.3884d6d8.chunk.js.LICENSE.txt": "/preact3/static/js/2.3884d6d8.chunk.js.LICENSE.txt",
+    "static/media/DNA.2d09df8b.png": "/preact3/static/media/DNA.2d09df8b.png",
+    "static/media/InverseMandelbrot.4cdcb07f.jpg": "/preact3/static/media/InverseMandelbrot.4cdcb07f.jpg",
+    "static/media/Mandelzoink.6307262d.jpg": "/preact3/static/media/Mandelzoink.6307262d.jpg",
+    "static/media/NickelStack.b1312c08.mp4": "/preact3/static/media/NickelStack.b1312c08.mp4",
+    "static/media/julia3.71642e53.png": "/preact3/static/media/julia3.71642e53.png",
+    "static/media/kaleidoscoob.6453d99f.png": "/preact3/static/media/kaleidoscoob.6453d99f.png",
+    "static/media/sierpinscoob.8d21650c.mp4": "/preact3/static/media/sierpinscoob.8d21650c.mp4"
   },
   "entrypoints": [
-    "static/js/runtime-main.d97c8da8.js",
-    "static/js/2.094d8d08.chunk.js",
-    "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.75b52035.chunk.js"
+    "static/js/runtime-main.30ce1c46.js",
+    "static/js/2.3884d6d8.chunk.js",
+    "static/css/main.8e5e9e8b.chunk.css",
+    "static/js/main.cbe1d4cd.chunk.js"
   ]
 }
