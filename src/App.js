@@ -1,25 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import TabList from './TabList';
+import Body from './Body';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+	constructor(props) {
+		super(props);
+		this.state = {
+			activeTab: 0
+		};
+		this.setActiveTab = this.setActiveTab.bind(this);
+		
+		this.titles = [
+			"Text Webpage",
+			"Image Webpage",
+			"Video Webpage",
+			"Table Webpage",
+			"Form Webpage"
+		];
+	}
+	
+	setActiveTab(id) {
+		document.title = this.titles[id];		
+		this.setState({activeTab: id});
+	}
+	
+	render() {
+		return (
+			<div className="App">
+				<TabList activeTab={this.state.activeTab} callback={this.setActiveTab}/>
+				<Body activeTab={this.state.activeTab}/>
+			</div>
+		);
+	}
 }
 
 export default App;
