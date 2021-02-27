@@ -37,6 +37,10 @@ class Video extends React.Component {
 			<div className="gallery">
 				<VideoElement callback={this.enableOverlay} src={video1} title="Continuous Nickelback Spiral" />
 				<VideoElement callback={this.enableOverlay} src={video2} title="Sierpinscoob" />
+				<VideoElement callback={this.enableOverlay} src={video1} title="Continuous Nickelback Spiral" />
+				<VideoElement callback={this.enableOverlay} src={video2} title="Sierpinscoob" />
+				<VideoElement callback={this.enableOverlay} src={video1} title="Continuous Nickelback Spiral" />
+				<VideoElement callback={this.enableOverlay} src={video2} title="Sierpinscoob" />
 
 			</div>
 			
